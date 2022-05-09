@@ -81,7 +81,7 @@ function insertToTable(productObj) {
         tr.remove();
     });
 
-    finished
+
     nameTd.appendChild(nameLabel);
     priceTd.appendChild(priceLabel);
     typeTd.appendChild(typeLabel);

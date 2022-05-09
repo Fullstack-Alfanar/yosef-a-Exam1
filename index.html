@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Exam 1</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="inputAria">
+            <h2>Add Products</h2>
+            <form onsubmit="addProduct(); return false;">
+
+                <label>Product Name:</label>
+                <input type="text" id="nameInput">
+
+                <label>Product Price:</label>
+                <input type="number" id="priceInput">
+
+                <label>Product type:</label>
+                <select name="type" id="typeSelect">
+                    <option value="Default">Please select one</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Meat">Meat</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Basic">Basic</option>
+                </select>
+
+                <label>Product Image URL:</label>
+                <input type="text" id="imageInput">
+
+                <input type="submit" value="Add Product">
+
+            </form>
+
+        </div>
+        <div class="tableAria">
+            <table>
+                <thead>
+                    <tr>
+                        <td><Label>Name</Label></td>
+                        <td><Label>Price</Label></td>
+                        <td><Label>Category</Label></td>
+                        <td><Label>Image</Label></td>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: whitesmoke;
+}
+
+.inputAria {
+  padding: 35px;
+}
+
+.inputAria form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inputAria * {
+  margin-top: 10px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 10px grey;
+          box-shadow: 5px 5px 10px grey;
+}
+
+.tableAria {
+  padding: 35px;
+  border-left-style: solid;
+  border-left-color: grey;
+}
+
+.tableAria img {
+  width: 75px;
+  height: 50px;
+}
+
+.tableAria td {
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */
